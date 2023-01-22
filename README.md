@@ -14,15 +14,18 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
+```
+Solution to a system of linear equation
+Name: Soundariyan M N
+Register no: 22008347
+```
+```pyTHON
 import numpy as np
-
 a=np.array([[1,-3],[3,+1]])
-
 b=([0,10])
-
 c=np.linalg.inv(a).dot(b)
-
 print(c)
+```
 
 ## Output:
 ![model](output.png)
